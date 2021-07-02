@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+}
+
+input[type="text"]{
+    border: 1px solid gray;
+    border-radius: 50px;
+    height: 30px;
+    width: 250px;
+    outline: none;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+button{
+    padding: 4px 10px;
+    background: green;
+    border: none;
+    color: white;
+}
+
+/*mobile view*/
+@media screen and (max-width: 360px) {  
+    input[type="text"]{
+        width: 180px;
+    }
+}
